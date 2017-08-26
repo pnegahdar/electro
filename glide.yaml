@@ -1,0 +1,26 @@
+package: github.com/pnegahdar/electro
+import:
+- package: github.com/Sirupsen/logrus
+  version: ^1.0.3
+- package: github.com/abbot/go-http-auth
+  version: ^0.4.0
+- package: github.com/elazarl/go-bindata-assetfs
+- package: github.com/gorilla/handlers
+  version: ^1.2.1
+- package: github.com/gorilla/mux
+  version: ^1.4.0
+- package: github.com/mitchellh/go-homedir
+- package: github.com/ramr/go-reaper
+- package: github.com/satori/go.uuid
+  version: ^1.1.0
+- package: github.com/spf13/cobra
+- package: golang.org/x/crypto
+  subpackages:
+  - acme/autocert
+  - ssh
+- package: gopkg.in/src-d/go-git.v4
+  version: ^4.0.0-rc9
+  subpackages:
+  - plumbing
+  - plumbing/transport
+  - plumbing/transport/ssh
