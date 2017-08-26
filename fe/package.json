@@ -1,0 +1,25 @@
+{
+  "name": "electro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "is-git-url": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.11",
+    "react-validate": "^0.1.3",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.71.4"
+  },
+  "proxy": {
+    "/v1": {
+      "target": "http://localhost:4200"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

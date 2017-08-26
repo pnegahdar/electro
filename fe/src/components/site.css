@@ -1,0 +1,14 @@
+.ui.form .field {
+    margin: 0 0 .5em;
+}
+.validate-component {
+    margin-bottom:  15px;
+}
+
+.error-message{
+    margin-bottom: 5px;
+}
+.error-message.hidden {
+    display: none;
+}
+
